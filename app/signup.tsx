@@ -5,7 +5,7 @@ import Colors from '@/constants/Colors'
 import { Link } from 'expo-router'
 
 const Page = () => {
-  const [countryCode, setCountryCode] = useState('+55')
+  const [countryCode, setCountryCode] = useState('+351')
   const [phoneNumber, setPhoneNumber] = useState('')
   const keyboardVerticalOffset = Platform.OS === 'ios' ? 80 : 0
 
